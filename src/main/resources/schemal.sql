@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS todo;
+CREATE TABLE todo (id INT IDENTITY(1,1) PRIMARY KEY, description VARCHAR(255), details VARCHAR(4096), done BIT);
